@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            box-sizing: border-box;
+            font-family: 'Shantell Sans', cursive;
+        }
+        .img_background{
+            width: 100%;
+            height: 600px;
+            border: 1px solid black;
+            background-image: url('tea_image.jpg');
+            background-size: 1490px 600px;
+            position: relative;
+        }
+        .shield{
+            position: absolute;
+            background-color: rgba(0,0 ,0, .6);
+            height: 100%;
+            width: 100%;
+        }
+        .nav_bar{
+            position:absolute;
+            width: 100%;
+            height: 75px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        label{
+            color: white;
+            font-size: 35px;
+            font-weight: 800;
+            margin: 0px 50px;
+        }
+        .nav_bar ul li{
+            display: inline-block;
+            margin: 0px 30px;
+
+        }
+        .nav_bar ul li a{
+            color: white;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        .intro_text{
+            margin: auto;
+            width: 500px;
+            height: 200px;
+            margin-top: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .upper{
+            color:chocolate ;
+            font-size: 23px;
+            font-weight: 700;
+        }
+        .main{
+            color: white;
+            font-size: 75px;
+            font-weight: bolder;
+        }
+        .lower{
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="img_background">
+            <div class="shield">
+                <div class="nav_bar">
+                    <label>CubeCafe</label>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Menu</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="intro_text">
+                    <div class="upper">We Have Been Serving</div>
+                    <div class="main">Cube Cafe</div>
+                    <div class="lower">*Since 2017*</div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
